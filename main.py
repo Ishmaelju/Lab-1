@@ -12,7 +12,7 @@ with open('data.json') as f:
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!12'  # return 'Hello World' in response
+    return 'Hello, World!'  # return 'Hello World' in response
 
 @app.route('/students')
 def get_students():
